@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    .veiculos {
+        display: block;
+        font-size: 16px;
+        color: #b2b2b2;
+        text-align: left;
+        place-self: center;
+        width: 600px;
+        
+    }
+    
+    .container_veiculo{
+        border-radius: 4px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 35px;
+        padding-right: 300px;
+        margin: 3%;
+        background-color: #111;
+    } 
+    
+    .container_veiculo h2{
+        padding: 0;
+        color: white;
+    }
+   .container_veiculo span{
+        color: #febe01;
+        font-weight: bold;
+    }
+    
+   .container_veiculo button{
+        border: none;
+        background-color: #febe01;
+        color: #332200;
+        font-weight: 500;
+        border-radius: 4px;
+        font-size: 1em;
+        padding: 5%;
+        cursor: pointer;
+    }
